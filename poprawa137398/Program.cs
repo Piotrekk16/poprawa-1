@@ -1,0 +1,41 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace poprawa137398
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Osoba> pracownicy = new List<Osoba>();
+
+            pracownicy.Add(new Kierownik("jan", "kowalski", 120, 70));
+            pracownicy.Add(new Pracownik("zygmunt", "trzeci", 80, 4));
+            pracownicy.Add(new Kierownik("jan1", "kowalski", 120, 70));
+            pracownicy.Add(new Pracownik("zygmunt1", "trzeci", 80, 4));
+            pracownicy.Add(new Kierownik("jan2", "kowalski", 120, 70));
+            pracownicy.Add(new Pracownik("zygmunt2", "trzeci", 80, 4));
+            pracownicy.Add(new Kierownik("jan3", "kowalski", 120, 70));
+            pracownicy.Add(new Pracownik("zygmunt3", "trzeci", 80, 4));
+            pracownicy.Add(new Kierownik("jan4", "kowalski", 120, 70));
+            pracownicy.Add(new Pracownik("zygmunt4", "trzeci", 80, 4));
+
+            for (int i = 1; i < pracownicy.Count - 1; i += 2)
+            {
+                Console.WriteLine(pracownicy[i].ObliczPensje());
+            }
+            pracownicy.RemoveAt(2);
+            pracownicy.RemoveAt(6);
+
+            foreach (var itm in pracownicy)
+            {
+                itm.ToString();
+            }
+
+
+        }
+    }
+}
