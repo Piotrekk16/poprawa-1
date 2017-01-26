@@ -13,7 +13,7 @@ namespace poprawa137398
         {
             return base.ObliczPensje() + iloscPodwladnych * 7;
         }
-        public Kierownik(string imie,string nazwisko,int podstawa,int podwaldni)
+        public Pracownik(string imie,string nazwisko,int podstawa, int staz) : base(imie, nazwisko, podstawa)
         {
             this.imie = imie;
             this.nazwisko = nazwisko;
