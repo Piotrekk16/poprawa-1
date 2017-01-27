@@ -1,1 +1,7 @@
 C:\Users\local\Desktop\poprawa137398\poprawa137398\bin\Debug\poprawa137398.exe.config
+D:\poprawa3\13\poprawa-master\poprawa137398\bin\Debug\poprawa137398.exe.config
+D:\poprawa3\13\poprawa-master\poprawa137398\obj\Debug\poprawa137398.csprojResolveAssemblyReference.cache
+D:\poprawa3\13\poprawa-master\poprawa137398\bin\Debug\poprawa137398.exe
+D:\poprawa3\13\poprawa-master\poprawa137398\bin\Debug\poprawa137398.pdb
+D:\poprawa3\13\poprawa-master\poprawa137398\obj\Debug\poprawa137398.exe
+D:\poprawa3\13\poprawa-master\poprawa137398\obj\Debug\poprawa137398.pdb

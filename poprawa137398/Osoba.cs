@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace poprawa137398
 {
-    abstract class Osoba
+    abstract class Osoba: INadgodziny, IComparable<Osoba>
     {
         protected string nazwisko;
         protected string imie;
@@ -24,5 +24,12 @@ namespace poprawa137398
             this.podstawa = podstawa_;
         }
 
+        public abstract int DoliczNadgodziny(int parametr);
+
+
+        public int CompareTo(Osoba other)
+        {
+            return this.nazwisko.CompareTo(other.nazwisko);
+        }
     }
 }
